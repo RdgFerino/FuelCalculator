@@ -39,7 +39,7 @@ class ResultActivity : AppCompatActivity() {
 
         val result = (dist / consum) * price
 
-        tvResult.text = "R$ %.2f".format(result)
+        tvResult.text = "€ %.2f".format(result)
 
         btnBack.setOnClickListener {
             val intent = Intent(this, PriceActivity::class.java)
